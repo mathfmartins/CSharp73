@@ -1,12 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace CSharp73
 {
-    static class TesteTuples_1
+    static class TesteDeTuples
     {
-        public static (string nome, string cpf, int idade) TestarTuple()
+        public static (string nome, string cpf, int idade) Teste1()
         {
             //Nome, Cpf, Idade
             var pessoa_1 = ("Lola Matheus", "181.943.645.12", 27);
@@ -14,12 +12,10 @@ namespace CSharp73
 
             bool mesmaPessoa = pessoa_1 == pessoa_2 ? true : false;
 
-            if (mesmaPessoa)
-                Console.WriteLine("São a mesma pessoa");
-            else
-                Console.WriteLine("Não são a mesma pessoa");
+            Console.WriteLine(mesmaPessoa);
 
             return pessoa_1;
         }
+
     }
 }

@@ -6,7 +6,7 @@ namespace CSharp73
     {
         static void Main(string[] args)
         {
-            var tuple = TesteTuples_1.TestarTuple();
+            var tuple = TesteDeTuples.Teste1();
             var pessoa = new Pessoa(); 
 
             pessoa.Nome = tuple.nome;
