@@ -16,4 +16,6 @@ namespace CSharp73
         public static bool estaRodandoEmPortaAlta = 
             int.TryParse(porta, out int portaComoInt) && portaComoInt > 1024;
     }
+
+    
 }

@@ -6,8 +6,9 @@ namespace CSharp73
     {
         static void Main(string[] args)
         {
-            TesteDeTuples.Teste();
-            ExpressionVariables.ValidarIdade();
+            ReatribuicaoEmRefs.Teste();
+            // TesteDeTuples.Teste();
+            // ExpressionVariables.ValidarIdade();
         }
 
        
